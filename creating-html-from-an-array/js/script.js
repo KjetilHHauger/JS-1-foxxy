@@ -30,7 +30,7 @@ let html = "";
 const totalItemOfPets = pets.length;
     console.log(totalItemOfPets);
 
-for(let i = 0; i < totalItemOfPets; i++) {
+for(i = 0; i < totalItemOfPets; i++) {
     console.log(pets[i].age)
     console.log(pets[i].color)
     html += `
