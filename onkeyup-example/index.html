@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: onkeyup Example ::</title>
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <!-- <input type="text" onkeyup="myFunction()">  one way to use onkeyup but not preferred. connects to function in main.js that is commented at top-->
+    <main>
+        <h1>Sign up form : </h1>
+        <form>
+            <label for="first-name">
+                First Name:
+            </label>
+            <input type="text" id="first-name">
+            <span id="first-name-error-message"></span>
+            <label for="password">
+                Password: 
+            </label>
+            <input type="password" id="password">
+            <span id="password-error-message">
+            </span>
+            <div>
+                <button type="submit" id="sign-up-BTN" disabled>Sign Up</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
