@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    margin-left: 1rem;
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    flex-grow: 1;
+    background-color: purple;
+}
+
+form {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #6F6F6F;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 30rem;
+}
+
+label {
+    color: #6F6F6F;
+}
+
+input[type="text"], [type="password"] {
+    height: 2rem;
+    border-radius: .3rem;
+}
+
+button {
+    padding: .5rem;
+    border-color: rgb(142, 197, 150);
+    color: black;
+    border-radius: .3rem;
+    background-color: rgb(60, 167, 60);
+}
+
+button[disabled] {
+    color: #6F6F6F;
+    border-color: #dadada;
+    background-color: lightgray;
+}
+
+.success {
+    color: darkgreen;
+}
+
+.error {
+    color: orangered;
+}
