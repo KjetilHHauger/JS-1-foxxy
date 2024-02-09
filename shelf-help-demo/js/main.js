@@ -1,3 +1,4 @@
+// need JSON server Shelf-help to be running on http://localhost:3000
 // fetch the book data
 
 const bookListDiv = document.getElementById("book-list")
